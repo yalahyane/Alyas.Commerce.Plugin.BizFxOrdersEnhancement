@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Repos\\ALYAS\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement.csproj": {}
+  },
+  "projects": {
+    "C:\\Repos\\ALYAS\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\ALYAS\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement.csproj",
+        "projectName": "Alyas.Commerce.Plugin.BizFxOrdersEnhancement",
+        "projectPath": "C:\\Repos\\ALYAS\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\ALYAS\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement\\Alyas.Commerce.Plugin.BizFxOrdersEnhancement\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net471"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sitecore.myget.org/F/sc-commerce-packages/api/v3/index.json": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net471": {
+            "targetAlias": "net471",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net471": {
+          "targetAlias": "net471",
+          "dependencies": {
+            "Sitecore.Commerce.Plugin.Orders": {
+              "target": "Package",
+              "version": "[5.0.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
